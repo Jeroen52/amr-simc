@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/azure-functions/dotnet:latest
+FROM mcr.microsoft.com/dotnet/core/runtime:latest
 MAINTAINER jeroen@jeroendeneef.com
 
 LABEL   name="Ask Mr. Robot Simulator Client" \
